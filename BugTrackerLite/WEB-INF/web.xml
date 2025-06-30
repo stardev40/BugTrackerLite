@@ -1,0 +1,12 @@
+
+<web-app>
+  <servlet>
+    <servlet-name>BugServlet</servlet-name>
+    <servlet-class>BugTrackerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>BugServlet</servlet-name>
+    <url-pattern>/submitBug</url-pattern>
+  </servlet-mapping>
+</web-app>

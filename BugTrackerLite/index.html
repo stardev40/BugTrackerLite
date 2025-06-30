@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bug Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h2>Submit a Bug Report</h2>
+  <form action="submitBug" method="post" onsubmit="return validateForm();">
+    <input type="text" name="title" id="title" placeholder="Bug Title"><br>
+    <textarea name="description" id="description" placeholder="Bug Description"></textarea><br>
+    <select name="priority" id="priority">
+      <option value="">Select Priority</option>
+      <option>Low</option>
+      <option>Medium</option>
+      <option>High</option>
+    </select><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
